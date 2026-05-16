@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Coffee, Droplets, Thermometer, Timer, ArrowRight, Play } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { cn } from '../lib/utils';
 
 export const BrewingGuide: React.FC = () => {
   const guides = [
@@ -126,5 +127,3 @@ export const BrewingGuide: React.FC = () => {
     </div>
   );
 };
-
-import { cn } from '../lib/utils';

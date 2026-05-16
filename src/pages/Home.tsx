@@ -4,6 +4,7 @@ import { motion } from 'motion/react';
 import { ArrowRight, Coffee, Shield, Zap, Truck, Star } from 'lucide-react';
 import { PRODUCTS, REVIEWS } from '../data';
 import { ProductCard } from '../components/ProductCard';
+import { cn } from '../lib/utils';
 
 export const Home: React.FC = () => {
   const featuredProducts = PRODUCTS.filter(p => p.featured);
